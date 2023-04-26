@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import {minimist} from minimist
-import {inquirer} from inquirer
 import {playRPS} from rpsls
 
 
