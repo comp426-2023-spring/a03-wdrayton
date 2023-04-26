@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import {minimist} from 'minimist'
-import {playRPS} from 'rpsls'
+import {playRPS} from "/lib/rpsls.js"
 
 
 const args = minimist(process.argv.slice(2));
