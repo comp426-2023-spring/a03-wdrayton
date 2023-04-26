@@ -26,4 +26,4 @@ if (args.r != null) {
     process.exit(0)
 }
 
-return(playRPS())
+playRPS(args[1])
