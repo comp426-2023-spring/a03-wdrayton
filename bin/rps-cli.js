@@ -1,5 +1,8 @@
+#!/usr/bin/env node
 import {minimist} from minimist
-import {rps} from node-rpsls
+import {inquirer} from inquirer
+import {playRPS} from rpsls
+
 
 const args = minimist(process.argv.slice(2));
 
@@ -24,4 +27,4 @@ if (args.r != null) {
     process.exit(0)
 }
 
-return(rps())
+return(playRPS())

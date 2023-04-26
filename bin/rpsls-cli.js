@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 import {minimist} from minimist
-import {rpsls} from rpsls
+import {inquirer} from inquirer
+import {playRPSLS} from rpsls
 
 const args = minimist(process.argv.slice(2));
 
@@ -29,4 +31,4 @@ if (args.r != null) {
     console.log("  - Rock CRUSHES Scissors\n")
 }
 
-return (rpsls())
+return (playRPSLS())
