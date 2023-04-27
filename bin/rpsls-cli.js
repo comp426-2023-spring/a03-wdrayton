@@ -31,4 +31,4 @@ if (args.r != null) {
     console.log("  - Rock CRUSHES Scissors\n")
 }
 
-playRPSLS(args[1])
+console.log(playRPSLS(args[1]))

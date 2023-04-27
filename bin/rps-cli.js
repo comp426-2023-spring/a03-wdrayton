@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist'
-import playRPS from "../lib/rpsls.js"
+import {playRPS} from "../lib/rpsls.js"
 
 const args = minimist(process.argv.slice(2));
 
@@ -26,4 +26,6 @@ if (args.r != null) {
     process.exit(0)
 }
 
-playRPS(args[1])
+console.log(args);
+
+console.log(playRPS(args[1]));
