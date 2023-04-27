@@ -26,6 +26,4 @@ if (args.r != null) {
     process.exit(0)
 }
 
-console.log(args);
-
 console.log(playRPS(args[1]));
