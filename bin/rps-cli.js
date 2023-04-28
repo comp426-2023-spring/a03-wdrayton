@@ -26,4 +26,4 @@ if (args.r != null) {
     process.exit(0)
 }
 
-console.log(playRPS(args[0]));
+console.log(playRPS(args._));
